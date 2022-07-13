@@ -1,0 +1,12 @@
+var w: integer;
+begin
+  readln(w);
+  if (w<>2) and (w mod 2 = 0) then
+  begin
+    writeln('YES');
+  end
+  else
+    begin
+    writeln('NO');
+    end;
+end.
