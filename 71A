@@ -1,0 +1,19 @@
+var s:string;
+w, n: integer;
+begin
+  readln(n);
+  for var  i:= 1 to n do
+  begin
+    readln(s);
+  if length(s)>10 then
+  begin
+    w:=length(s)-2;
+    s:= s[1]+w+s[length(s)];
+    writeln(s);
+    end
+  else
+    begin
+      writeln(s);
+    end
+    end 
+end.
