@@ -1,0 +1,15 @@
+var n, count,a,b: integer;
+begin
+  readln(n);
+  count:=0;
+  begin
+    for var i:= 1 to n do 
+    begin
+    b:=a;
+    readln(a);
+    if a<>b then
+      count:=count + 1;
+  end;
+  end;
+  writeln(count);
+end.
